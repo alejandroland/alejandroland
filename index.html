@@ -4,18 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alejvndrox.com</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
     <style>
-        img {
-            width: 200px;
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Open Sans', system-ui, sans-serif;
+        }
+        img.profile {
+            width: 100px;
             height: auto;
             border-radius: 50%;
+        }
+        .certificates {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .certificates img {
+            width: 300px;
+            height: auto;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
-    <img src="me.jpg" alt="Foto de Alejandro">
-    <p>¡Hola! Soy Alejandro.</p>
-    <p>Me dedico a la Ingeniería de software y al Diseño.</p>
-    <p>Me gusta mucho leer y estudiar. Algunos de los temas que me han interesado últimamente son la privacidad, el cambio climático, el minimalismo y la accesibilidad en la web.</p>
+    <div class="container">
+        <img class="profile" src="me.jpg" alt="Foto de Alejandro">
+        <p>¡Hola! Soy Alejandro.</p>
+        <p>Me dedico a la Ingeniería de software y al Diseño.</p>
+        <p>Me gusta mucho leer y estudiar. Algunos de los temas que me han interesado últimamente son la privacidad, el cambio climático, el minimalismo y la accesibilidad en la web.</p>
+        <h2>Mis últimos cursos aprobados en Platzi.</h2>
+        <div class="certificates">
+            <img src="img/certificados/wpo.png" alt="Certificado de Web Page Optimization">
+            <img src="img/certificados/english.png" alt="Certificado de Web Page Optimization">
+            <img src="img/certificados/frontend-developer.png" alt="Certificado de Web Page Optimization">
+            <img src="img/certificados/negocios-online.png" alt="Certificado de Web Page Optimization">
+            <img src="img/certificados/responsive-design.png" alt="Certificado de Web Page Optimization">
+            <img src="img/certificados/transformacion-digital.png" alt="Certificado de Web Page Optimization">
+        </div>
+    </div>
 </body>
 </html>
