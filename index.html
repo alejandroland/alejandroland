@@ -11,6 +11,9 @@
             margin: 0;
             padding: 0;
         }
+        h1, h2, h3, h4 {
+            margin-bottom: 15px;
+        }
         body {
             font-family: 'Open Sans', system-ui, sans-serif;
         }
@@ -20,16 +23,64 @@
             border-radius: 50%;
         }
         .certificates {
+            max-width: 800px;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
         }
         .certificates img {
-            width: 300px;
-            height: auto;
+            width: 100%;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
+        }
+        .videogames {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+        }
+        .videogames img {
+            width: 100%;
+        }
+        .videogames img:nth-child(1) {
+            grid-column-start: 1;
+            grid-column-end: 9;
+        }
+        .videogames img:nth-child(2) {
+            grid-column-start: 9;
+            grid-column-end: 13;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .videogames img:nth-child(3) {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .videogames img:nth-child(4) {
+            grid-column-start: 4;
+            grid-column-end: 7;
+        }
+        .videogames img:nth-child(5) {
+            grid-column-start: 7;
+            grid-column-end: 9;
+        }
+        .videogames img:nth-child(6) {
+            grid-column-start: 1;
+            grid-column-end: 7;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        .videogames img:nth-child(7) {
+            grid-column-start: 7;
+            grid-column-end: 13;
+        }
+        .videogames img:nth-child(8) {
+            grid-column-start: 7;
+            grid-column-end: 13;
         }
     </style>
 </head>
@@ -39,14 +90,25 @@
         <p>¡Hola! Soy Alejandro.</p>
         <p>Me dedico a la Ingeniería de software y al Diseño.</p>
         <p>Me gusta mucho leer y estudiar. Algunos de los temas que me han interesado últimamente son la privacidad, el cambio climático, el minimalismo y la accesibilidad en la web.</p>
-        <h2>Mis últimos cursos aprobados en Platzi.</h2>
+        <h2>Mis últimos cursos aprobados en Platzi:</h2>
         <div class="certificates">
             <img src="img/certificados/wpo.png" alt="Certificado de Web Page Optimization">
-            <img src="img/certificados/english.png" alt="Certificado de Web Page Optimization">
-            <img src="img/certificados/frontend-developer.png" alt="Certificado de Web Page Optimization">
-            <img src="img/certificados/negocios-online.png" alt="Certificado de Web Page Optimization">
-            <img src="img/certificados/responsive-design.png" alt="Certificado de Web Page Optimization">
-            <img src="img/certificados/transformacion-digital.png" alt="Certificado de Web Page Optimization">
+            <img src="img/certificados/english.png" alt="Certificado de Inglés">
+            <img src="img/certificados/frontend-developer.png" alt="Certificado de Frontend">
+            <img src="img/certificados/negocios-online.png" alt="Certificado de Negocios Online">
+            <img src="img/certificados/responsive-design.png" alt="Certificado de Responsive Design">
+            <img src="img/certificados/transformacion-digital.png" alt="Certificado de Transformación digital">
+        </div>
+        <h2>También me gustan los videjuegos, algunos de mis favoritos son:</h2>
+        <div class="videogames">
+            <img class="item-a" src="img/videojuegos/demons-souls.jpg" alt="">
+            <img src="img/videojuegos/mgs2.jpg" alt="">
+            <img src="img/videojuegos/fatal-racing.jpeg" alt="">
+            <img src="img/videojuegos/mean-bean.png" alt="">
+            <img src="img/videojuegos/pokemon.jpg" alt="">
+            <img src="img/videojuegos/age-of-empires.png" alt="">
+            <img src="img/videojuegos/perfect-dark.jpg" alt="">
+            <img src="img/videojuegos/smash.jpg" alt="">
         </div>
     </div>
 </body>
