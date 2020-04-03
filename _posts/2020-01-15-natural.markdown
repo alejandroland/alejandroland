@@ -22,11 +22,17 @@ Sí, muchos materiales se obtienen a través de diferentes procesos, al igual qu
 
 ## Lo que no es natural tiene químicos
 
-<figcaption>Algunos de los polifenoles presentes en las manzanas.</figcaption>
+<figure>
+    <img src="https://i.postimg.cc/ZR4gkH3Q/polifenol-manzana.jpg" alt="moléculas presentes en las manzanas">
+    <figcaption>Algunos de los polifenoles presentes en las manzanas.</figcaption>
+</figure>
 
 Toda la materia está formada por átomos, los átomos forman moléculas y así sucesivamente. Las características de los átomos son las que determinan de qué elemento químico se trata.
 
-<figcaption>Ácido Acetilsalicílico (Aspirina)</figcaption>
+<figure>
+    <img src="https://i.postimg.cc/QMpPnwB5/aspirina.jpg" alt="molécula de ácido acetilsalicílico">
+    <figcaption>Ácido Acetilsalicílico (Aspirina)</figcaption>
+</figure>
 
 Y francamente se ve más espeluznante el contenido de una manzana que de una Aspirina.
 
