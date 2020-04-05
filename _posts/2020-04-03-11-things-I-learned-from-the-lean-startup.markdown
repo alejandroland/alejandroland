@@ -10,7 +10,7 @@ There are limited resources on a Startup, the main goal is to lift off before th
 
 ## 2. Iterate through the fedback loop as fast as possible
 
-Build, measure, learn – in that order. This brings to my mind an article about a decision-making technique called OODA. You can take a look here -> OODA LOOP: What You Can Learn from Fighter Pilots About Making Fast and Accurate Decisions a really big part of Startups is about making experiments. Learning as fast as possible what works and what doesn’t is critical to success given the amount of resources you count on.
+Build, measure, learn – in that order. This brings to my mind an article about a decision-making technique called OODA. You can take a look here -> [OODA LOOP: What You Can Learn from Fighter Pilots About Making Fast and Accurate Decisions][1] a really big part of Startups is about making experiments. Learning as fast as possible what works and what doesn’t is critical to success given the amount of resources you count on.
 
 ## 3. Pivot vs Persevere
 
@@ -90,3 +90,5 @@ It’s your idea anyway, if you tell someone you want to make the most amazing p
 Conclusion
 
 Start. It. Up.
+
+[1]: https://fs.blog/2018/01/john-boyd-ooda-loop/
