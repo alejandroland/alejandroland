@@ -22,4 +22,4 @@ Phew, that was a hard decision. But going from who knows how many to only three 
 
 I’ll be sharing my progress on the following weeks.
 
-“No two languages are ever sufficiently similar to be considered as representing the same social reality. The worlds in which different societies live are distinct worlds, not merely the same world with different labels attached.” -Edward Sapir (American linguist)
+> “No two languages are ever sufficiently similar to be considered as representing the same social reality. The worlds in which different societies live are distinct worlds, not merely the same world with different labels attached.” -Edward Sapir (American linguist)
