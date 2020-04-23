@@ -23,24 +23,44 @@
     #skills ul {
       list-style: none;
     }
-    header p {
-      margin: 0;
-      padding: 0;
-      font-size: 2rem;
+    header {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    header section {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
     }
     header h1 {
       font-size: 3rem;
-      margin: -15px 0 1rem;
+      margin: 0 0 1rem;
+    }
+    header h1 span {
+      margin: 0;
+      padding: 0;
+      font-size: 2rem;
+      font-weight: 200;
+      text-align: right;
+      display: block;
+      margin-bottom: -10px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-evenly;
     }
     header nav a {
       text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 3px;
     }
   </style>
 </head>
 <body>
   <header>
-    <p>Alejandro Jimenez</p>
-    <h1>Frontend Developer</h1>
+    <section>
+      <h1><span>Alejandro Jimenez</span>Frontend Developer</h1>
+    </section>
     <nav>
       <a href="#">Resume</a>
       <a href="/blog">Articles</a>
@@ -77,9 +97,10 @@
       </ul>
     </section>
     <section>
-      <img src="" alt="">
+      <img src="./assets/img/previews/watercolor.png" alt="landing page snapshot">
       <h2>Landing Page</h2>
       <p>This is my first lnding page, it has mockup information; the objective was to use web technologies to create it.</p>
+      <a href="#">GitHub</a><a href="#">Demo</a>
     </section>
   </main>
 </body>
