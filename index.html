@@ -16,12 +16,24 @@
       font-family: 'Manrope', system-ui, sans-serif;
       font-size: 16px;
     }
+    main {
+      max-width: 100%;
+    }
+    img {
+      max-width: 100%;
+    }
+    #skills {
+      overflow: hidden;
+    }
     #skills img {
-      height: 60px;
+      height: 80px;
       width: auto;
+      float: left;
     }
     #skills ul {
-      list-style: none;
+      float: left;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
     header {
       display: grid;
@@ -48,11 +60,19 @@
     nav {
       display: flex;
       justify-content: space-evenly;
+      margin-bottom: 20px;
     }
     header nav a {
       text-decoration: none;
       text-transform: uppercase;
       letter-spacing: 3px;
+    }
+    #projects article img {
+      max-width: 400px;
+    }
+    #projects article {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
     }
   </style>
 </head>
@@ -69,6 +89,7 @@
   </header>
   <main>
     <section id="skills">
+      <img src="./assets/img/logos/html5.svg" alt="logo">
       <ul>
         <li>
           HTML
@@ -96,11 +117,15 @@
         </li>
       </ul>
     </section>
-    <section>
-      <img src="./assets/img/previews/watercolor.png" alt="landing page snapshot">
-      <h2>Landing Page</h2>
-      <p>This is my first lnding page, it has mockup information; the objective was to use web technologies to create it.</p>
-      <a href="#">GitHub</a><a href="#">Demo</a>
+    <section id="projects">
+      <article>
+        <img src="./assets/img/previews/watercolor.png" alt="landing page snapshot">
+        <section class="details">
+          <h2>Landing Page</h2>
+          <p>This is my first lnding page, it has mockup information; the objective was to use web technologies to create it.</p>
+          <a href="#">GitHub</a><a href="#">Demo</a>
+        </section>
+      </article>
     </section>
   </main>
 </body>
