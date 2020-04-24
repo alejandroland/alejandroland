@@ -10,7 +10,9 @@
       box-sizing: border-box;
     }
     body, html {
-      height: 100%;
+      min-height: 100%;
+      margin: 0;
+      padding: 0;
     }
     body {
       font-family: 'Manrope', system-ui, sans-serif;
@@ -43,12 +45,13 @@
       flex-wrap: wrap;
     }
     #skills ul li {
-      background-color: #e3e3e3;
+      background-color: #f0f0f0;
       padding: 10px 25px;
       margin: 10px;
       letter-spacing: 2px;
     }
     header {
+      margin-top: 10px;
       display: grid;
       grid-template-columns: 1fr;
     }
@@ -93,8 +96,28 @@
     #projects article {
       display: grid;
       grid-template-columns: 1fr 2fr;
+      grid-gap: 10px;
       margin: 20px 0;
       padding: 10px;
+    }
+    .details a {
+      color: #666;
+      padding: 10px 20px;
+      margin: 0 5px;
+    }
+    .details a {
+      margin-left: 0;
+      padding-left: 0;
+    }
+    footer {
+      background-color: #666;
+      margin-bottom: 0;
+      padding: 10px;
+    }
+    footer p {
+      text-align: center;
+      color: #f0f0f0;
+      font-size: .8rem;
     }
   </style>
 </head>
@@ -162,5 +185,8 @@
       </article>
     </section>
   </main>
+  <footer>
+    <p>© Alejandro Jimenez, 2020.</p>
+  </footer>
 </body>
 </html>
