@@ -15,6 +15,7 @@
     body {
       font-family: 'Manrope', system-ui, sans-serif;
       font-size: 16px;
+      color: #333;
     }
     main {
       width: 100%;
@@ -33,16 +34,31 @@
     #skills img {
       height: 80px;
       width: auto;
-      float: left;
     }
     #skills ul {
-      float: left;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    #skills ul li {
+      background-color: #e3e3e3;
+      padding: 10px 25px;
+      margin: 10px;
+      letter-spacing: 2px;
     }
     header {
       display: grid;
       grid-template-columns: 1fr;
+    }
+    .logos {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0 30px;
+    }
+    .logos img {
+      margin: 0 15px;
     }
     header section {
       display: grid;
@@ -64,13 +80,15 @@
     }
     nav {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
       margin-bottom: 20px;
     }
     header nav a {
       text-decoration: none;
       text-transform: uppercase;
-      letter-spacing: 3px;
+      letter-spacing: 5px;
+      margin: 0 20px;
+      color: #666;
     }
     #projects article {
       display: grid;
@@ -93,7 +111,11 @@
   </header>
   <main>
     <section id="skills">
-      <img src="./assets/img/logos/html5.svg" alt="logo">
+      <div class="logos">
+        <img src="./assets/img/logos/html5.svg" alt="logo">
+        <img src="./assets/img/logos/js.png" alt="logo">
+        <img src="./assets/img/logos/css3.svg" alt="logo">
+      </div>
       <ul>
         <li>
           HTML
