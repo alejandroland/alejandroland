@@ -7,6 +7,8 @@ featured-image: querer-no-es-poder.jpg
 description: "Si tengo la voluntad de conseguir algo hay un camino para lograrlo. Esa es la diferencia, en nuestro idioma nos dicen que simplemente con imaginarlo lo vamos a tener, cuando en inglés dicen que si quieres habrá un camino, pero no necesariamente vas a lograrlo."
 ---
 
+"Querer es poder".
+
 Querer no basta.
 
 Querer no es suficiente, querer es lo mínimo, con eso se empieza, pero no es suficiente.
