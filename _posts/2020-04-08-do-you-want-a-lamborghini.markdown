@@ -8,7 +8,7 @@ I wanted one, and a really big house with a really big pool and a garage full of
 
 I used to take long walks in the fool’s venue thinking about how fabulous my life would be if I only had those things.
 
-Watching all the time ads on Facebook and Twitter and YouTube of all these people with all that luxury. Being rich, being millionaires, being *happy*.
+Watching all the time ads on Facebook and Twitter and YouTube of all these people surrounded with luxury. Being rich, being millionaires, being *happy*.
 
 Then I started to fall into a trap, believing everyone that popped into my screen screaming “Do you want to be rich? I’ll teach you to be rich!” And buy a crappy course for a couple of bucks just to find out there’s only a PDF with common sense stuff and some videos about that PDF with common sense stuff.
 
