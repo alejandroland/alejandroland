@@ -24,14 +24,14 @@ permalink: /:title
 
 ########
 
-title: alejvndrox
+title: alejandroland
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Bienvenid@ a mi sitio web.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: alejvndrox
-github_username:  alejvndrox
+twitter_username: _alejandroland
+github_username:  alejandroland
 
 # Build settings
 theme: minima
