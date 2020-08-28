@@ -12,7 +12,7 @@ There are limited resources on a Startup, the main goal is to lift off before th
 
 Build, measure, learn – in that order. This brings to my mind an article about a decision-making technique called OODA. You can take a look here -> [OODA LOOP: What You Can Learn from Fighter Pilots About Making Fast and Accurate Decisions][1] a really big part of Startups is about making experiments. Learning as fast as possible what works and what doesn’t is critical to success given the amount of resources you count on.
 
-## 3. Pivot vs Persevere
+## 3. Pivot VS Persevere
 
 Do you keep trying to push that product, business model, app feature or do you just follow a different path? This decision has to rely on data from the feedback loop. Maybe that feature you and your team love so much means nothing to the actual customer and must be thrown away.
 
