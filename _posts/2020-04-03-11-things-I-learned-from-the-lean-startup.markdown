@@ -8,7 +8,7 @@ categories: books
 
 There are limited resources on a Startup, the main goal is to lift off before the runway ends on a cliff. If your Startup is glued to the ground you have to throw away what’s not necessary. Maybe you are paying a high fee for a fancy CRM and you have zero leads to work with, that’s waste. Or maybe you are leasing a story when there’s just 3 people and a goldfish on your team. You don’t need those… yet. The most important part on your startup is to create value, generate cash flow and lift off.
 
-## 2. Iterate through the fedback loop as fast as possible
+## 2. Iterate through the feedback loop as fast as possible
 
 Build, measure, learn – in that order. This brings to my mind an article about a decision-making technique called OODA. You can take a look here -> [OODA LOOP: What You Can Learn from Fighter Pilots About Making Fast and Accurate Decisions][1] a really big part of Startups is about making experiments. Learning as fast as possible what works and what doesn’t is critical to success given the amount of resources you count on.
 
@@ -82,12 +82,13 @@ Oh boy, this was a revelation for me. It’s absurdly hard that someone steals y
 
 Try this: Try to contact a manager or someone in a high position on a company that’s trying to solve similar problems that the ones you are trying to solve with your business idea. Go on, try it and tell them about your idea and see if they steal it.
 
-They have the money, the workers, the infraestructure, and… most likely they won’t be interested in pursuing your idea because they have hundreds of other thing to worry about.
+They have the money, the workers, the infrastructure, and… most likely they won’t be interested in pursuing your idea because they have hundreds of other thing to worry about.
 
 So, don’t be afraid of sharing. Start working towards your goal.
 
 It’s your idea anyway, if you tell someone you want to make the most amazing pizza ever they won’t automatically come right up with the ingredients (if they may really steal your idea) for the dough, the size, the smell, the presentation and all of the important stuff that you already thought of becasue after all, it’s YOUR IDEA.
-Conclusion
+
+## Conclusion
 
 Start. It. Up.
 
