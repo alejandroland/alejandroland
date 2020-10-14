@@ -1,6 +1,6 @@
 <script context="module">
   // import the logic for finding a post based on permalink
-  import {findPost} from '../../posts'
+  import {findPost} from '../posts'
 
   // sapper calls this to load our data
   export function preload(page) {
