@@ -1,5 +1,6 @@
 ---
 title: Lo tengo todo
+slug: lo-tengo-todo
 date: 2017-11-30 12:00:00 -0600
 summary: "A veces, en un momento de tranquilidad, me siento feliz. Como si lo tuviera todo. Me siento agradecido y me doy cuenta de mi fortuna. Puedo sentir, oler un perfume, saborear una uva o ver un atardecer. Puedo andar, hablar, querer y soñar."
 ---
