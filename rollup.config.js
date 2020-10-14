@@ -6,8 +6,8 @@ import babel from '@rollup/plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
-import markdown from '@jackfranklin/rollup-plugin-markdown'
-import glob from 'rollup-plugin-glob'
+import markdown from '@jackfranklin/rollup-plugin-markdown';
+import glob from 'rollup-plugin-glob';
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
