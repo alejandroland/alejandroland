@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2020-04-11 12:00:00 -0600
 title: "Alternative Vegan"
 categories: learning
 ---

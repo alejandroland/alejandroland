@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2020-04-08 12:00:00 -0600
 title: "Do you want a Lamborghini?"
 categories: thoughts
 ---

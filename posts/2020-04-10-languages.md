@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2020-04-10 12:00:00 -0600
 title: "Languages"
 categories: learning
 ---
