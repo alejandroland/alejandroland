@@ -17,7 +17,8 @@
 	img {
 		width: 100%;
 		max-width: 400px;
-		margin: 0 0 1em 0;
+		margin: 0 auto;
+		display: block;
 	}
 
 	p {
@@ -35,6 +36,6 @@
 	<title>alejandroland</title>
 </svelte:head>
 
-<h1>alejandroland</h1>
+<img src="alejandroland-logo.png" alt="alejandroland logo">
 
 <p><strong>This site is being migrated from Jekyll to Sapper</strong></p>
