@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Alternative Vegan"
-categories: learning
+categories: [learning]
 ---
 
 I’m aware of health and environmental benefits of a vegetarian diet. (For me the environmental part is more important)

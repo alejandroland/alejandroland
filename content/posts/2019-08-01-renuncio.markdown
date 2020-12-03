@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Renuncio"
-categories: pensamientos
+categories: [pensamientos]
 ---
 
 Hace casi dos meses que renuncié a mi empleo.

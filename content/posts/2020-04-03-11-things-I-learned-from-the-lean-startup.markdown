@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "11 Things I learned from \"The Lean Startup\""
-categories: books
+categories: [books]
 ---
 
 ## 1. Eliminate waste

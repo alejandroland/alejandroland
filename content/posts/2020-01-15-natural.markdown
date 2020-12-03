@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "100% Natural"
-categories: pensamientos
+categories: [pensamientos]
 ---
 
 100% Natural, vaya afirmación. TODO es natural. Desde los árboles y los mares hasta las aspirinas, el plástico y los rascacielos.

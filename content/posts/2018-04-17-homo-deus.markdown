@@ -2,7 +2,7 @@
 layout: post
 title:  "Homo Deus"
 date:   2018-04-17 12:00:00 -0600
-categories: pensamientos
+categories: [pensamientos]
 featured-image: homo-deus.jpg
 description: "La tecnología avanza cada vez más rápido, ya no podemos seguirle el paso a nuestro desarrollo. Las sociedades y los sistemas que hemos creado se regeneran y adaptan más rápido que nuestra estructura biológica."
 ---

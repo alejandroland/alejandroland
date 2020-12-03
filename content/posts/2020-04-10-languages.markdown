@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Languages"
-categories: learning
+categories: [learning]
 ---
 
 I LOVE languages.

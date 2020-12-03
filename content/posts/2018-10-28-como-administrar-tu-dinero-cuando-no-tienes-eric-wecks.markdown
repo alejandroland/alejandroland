@@ -2,7 +2,7 @@
 layout: post
 title:  "Cómo administrar tu dinero cuando no tienes - Eric Wecks"
 date:   2018-10-28 12:00:00 -0600
-categories: pensamientos
+categories: [pensamientos]
 featured-image: como-administrar-tu-dinero-cuando-no-tienes.jpg
 description: "Tomamos prestado de nuestro futuro yo, para tener lo que queremos ahora. Lo peor es que pagamos por el privilegio de comprometer nuestra estabilidad financiera en el futuro."
 ---

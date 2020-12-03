@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lo mejor"
-categories: pensamientos
+categories: [pensamientos]
 ---
 
 ¿Cuál es la mejor X?

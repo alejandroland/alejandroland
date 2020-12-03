@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Do you want a Lamborghini?"
-categories: thoughts
+categories: [thoughts]
 ---
 
 I wanted one, and a really big house with a really big pool and a garage full of nice cars and motorcycles and a really nice everything so people would love me, so the pretty girls would pay attention to me, so I wouldn’t be lonely.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mis propósitos de año nuevo"
-categories: pensamientos
+categories: [pensamientos]
 permalink: /propositos2019/
 featured-image: mis-propositos-ano-nuevo-2019.jpg
 description: "Ya son mediados de febrero, pero no es necesario esperar a que sea un lunes 1 de enero para comenzar un cambio."

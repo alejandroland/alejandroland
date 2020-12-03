@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New"
-categories: thoughts
+categories: [thoughts]
 ---
 
 I used to overvalue “new".

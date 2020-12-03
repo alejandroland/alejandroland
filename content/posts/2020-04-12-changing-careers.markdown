@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Changing Careers"
-categories: job
+categories: [job]
 ---
 
 Here I am, changing careers.

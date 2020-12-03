@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Decisiones"
-categories: pensamientos
+categories: [pensamientos]
 featured-image: decisiones.png
 description: "No podemos saber con certeza qué es lo que va a pasar en el futuro, pero podemos tomar en cuenta la situación en la que estamos para tomar la mejor decisión."
 ---
