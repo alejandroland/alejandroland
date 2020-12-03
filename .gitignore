@@ -3,3 +3,13 @@
 /src/node_modules/@sapper/
 yarn-error.log
 /__sapper__/
+
+/public/
+/resources/_gen/
+
+hugo.exe
+hugo.linux
+hugo.darwin
+
+dist
+tmp
