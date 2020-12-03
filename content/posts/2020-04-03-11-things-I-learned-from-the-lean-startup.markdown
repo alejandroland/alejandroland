@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "11 Things I learned from \"The Lean Startup\""
 categories: [books]
 ---

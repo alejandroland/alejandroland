@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Homo Deus"
 date:   2018-04-17 12:00:00 -0600
 categories: [pensamientos]

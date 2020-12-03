@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Querer no es poder"
 date:   2018-07-24 12:00:00 -0600
 categories: [pensamientos]

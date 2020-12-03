@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Cómo administrar tu dinero cuando no tienes - Eric Wecks"
 date:   2018-10-28 12:00:00 -0600
 categories: [pensamientos]

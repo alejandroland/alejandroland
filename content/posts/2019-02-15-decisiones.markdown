@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Decisiones"
 categories: [pensamientos]
 featured-image: decisiones.png

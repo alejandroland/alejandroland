@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Do you want a Lamborghini?"
 categories: [thoughts]
 ---

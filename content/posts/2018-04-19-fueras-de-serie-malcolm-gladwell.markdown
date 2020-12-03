@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Fueras de Serie - Malcolm Gladwell"
 date:   2018-04-19 12:00:00 -0600
 categories: [pensamientos]

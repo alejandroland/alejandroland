@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Mis propósitos de año nuevo"
 categories: [pensamientos]
 permalink: /propositos2019/

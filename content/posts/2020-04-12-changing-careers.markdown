@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Changing Careers"
 categories: [job]
 ---
