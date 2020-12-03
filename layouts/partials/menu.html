@@ -1,52 +1,26 @@
-<nav class="nav">
-    <ul class="menu" id="menu">
-        {{ if .Site.Params.activeInSection }}
-            {{ .Scratch.Set "currentPage" (.Site.GetPage (printf `/%s` .Section)) }}
-        {{ else }}
-            {{ .Scratch.Set "currentPage" . }}
-        {{ end }}
-        {{ $currentPage := .Scratch.Get "currentPage" }}
-        {{ $ctx := . }}
-        {{ range .Site.Menus.main }}
-            {{ if and (eq .Identifier "theme-switcher") $.Site.Params.enableDarkMode }}
-                {{ if eq $.Site.Params.headerLayout "flex" }}
-                    {{ $switcher := partial "components/dark-mode.html" $ctx }}
-                    {{ with $switcher }}
-                        <li class="menu-item">
-                            {{ . }}
-                        </li>
-                    {{ end }}
-                {{ end }}
-            {{ else if eq .Identifier "lang-switcher" }}
-                {{ if and $.Site.IsMultiLingual $.Site.Params.enableLangToggle }}
-                    {{ if eq $.Site.Params.headerLayout "flex" }}
-                        {{ $switcher := partial "components/multilingual.html" $ctx }}
-                        {{ with $switcher }}
-                            <li class="menu-item">
-                                {{ . }}
-                            </li>
-                        {{ end }}
-                    {{ end }}
-                {{ end }}
-            {{ else if eq .Identifier "search" }}
-                {{ if and $.Site.Params.enableLunrSearch (eq $.Site.Params.headerLayout "flex") }}
-                    {{- $iconName := (string .Post) -}}
-                    <li class="menu-item search-item">
-                        {{ partial "components/search.html" (dict "$" $ctx "iconName" $iconName) }}
-                    </li>
-                {{ end }}
-            {{ else }}
-                <li class="menu-item{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
-                    {{- $linkType := (string .Pre) -}}
-                    <a href="{{ .URL }}"{{ if eq $linkType "external" }} target="_blank" rel="external noopener"{{ end }}>
-                        {{- $iconName := (string .Post) -}}
-                        {{- partial "utils/icon.html" (dict "$" $ "name" $iconName "class" .Identifier) -}}
-                        {{- with .Name -}}
-                            <span class="menu-item-name">{{ . }}</span>
-                        {{- end -}}
-                    </a>
-                </li>
-            {{ end }}
-        {{ end }}
-    </ul>
+<nav class="main-menu layout__navigation">
+<h2 class="visually-hidden">{{ i18n "menu_title" }}</h2>
+<ul class="navbar">
+{{ if .Site.Menus.main -}}
+
+{{ $currentPage := . -}}
+{{ range .Site.Menus.main -}}
+<li><a href="{{ .URL | relLangURL }}"{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="active" aria-current="page"{{ end }}>{{ .Name }}</a></li>
+{{ end -}}
+
+{{ else -}}
+
+{{ $currentSection := .Section -}}
+{{ $currentID := "" -}}
+{{ with .File }}{{ $currentID = .UniqueID }}{{ end -}}
+{{ with .Site.Home }}<li><a href="{{ .RelPermalink }}"{{ if eq $currentID .File.UniqueID }} class="active" aria-current="page"{{ end }}>{{ i18n "menu_home" }}</a></li>{{ end }}
+{{ range where .Site.RegularPages "Section" "" -}}
+<li><a href="{{ .RelPermalink }}"{{ if eq $currentID .File.UniqueID }} class="active" aria-current="page"{{ end }}>{{ .Title }}</a></li>
+{{ end -}}
+{{ range .Site.Sections -}}
+<li><a href="{{ .RelPermalink }}"{{ if eq $currentSection .Section }} class="active" aria-current="page"{{ end }}>{{ .Title }}</a></li>
+{{ end -}}
+
+{{ end -}}
+</ul>
 </nav>
