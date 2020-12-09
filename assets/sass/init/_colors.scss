@@ -1,13 +1,13 @@
 // sass-lint:disable no-color-keywords; no-color-hex
 
 // Base colors.
-$black:                  #000;
+$black:                  #2e282a;
 $nearblack:              lighten($black, 20%); // #333
 $grey-dark:              lighten($black, 40%); // #666
 $grey:                   lighten($black, 60%); // #999
 $grey-light:             lighten($black, 80%); // #ccc
 $grey-extra-light:       lighten($black, 93.33%); // #eee
-$white:                  #fff;
+$white:                  #f6f6f6;
 
 $blue:                   #0072b9;
 $red:                    #c00;
@@ -37,7 +37,7 @@ $autocomplete-select-bg: $blue;
 
 $body-bg:                $white;
 $header-bg:              $brand;
-$backdrop:               $grey-extra-light;
+$backdrop:               $white; // $grey-extra-light;
 
 $mobile-menu:            $header-bg;
 $mobile-menu-cover:      rgba($black, .2);
