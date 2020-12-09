@@ -1,7 +1,8 @@
 // sass-lint:disable no-color-keywords; no-color-hex
 
 // Base colors.
-$black:                  #2e282a;
+$raisin:                 #2e282a;
+$black:                  #000;
 $nearblack:              lighten($black, 20%); // #333
 $grey-dark:              lighten($black, 40%); // #666
 $grey:                   lighten($black, 60%); // #999
@@ -15,14 +16,14 @@ $green:                  #43a808;
 $yellow:                 #fd0;
 
 // Colors used in the main content area.
-$brand:                  $nearblack;
+$brand:                  $raisin;
 $brand-alt:              $grey;
 $brand-dark:             $grey-dark;
-$text:                   $black;
+$text:                   $raisin;
 $text-bg:                $white;
 $text-meta:              $grey-dark;
 
-$link:                   $black;
+$link:                   $raisin;
 $link-visited:           $black;
 $link-hover:             $brand;
 $link-active:            $red;
@@ -68,6 +69,6 @@ $error-bg:               lighten($error, 57%);
 
 $watermark:              $grey-extra-light;
 
-$headings:               $nearblack;
+$headings:               $raisin;
 
-$code:                   $nearblack;
+$code:                   $raisin;
