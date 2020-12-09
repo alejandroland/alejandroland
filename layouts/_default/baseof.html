@@ -10,6 +10,8 @@
 {{ partial "meta_json_ld.html" . }}
 {{ partial "scripts.html" . }}
 {{ partialCached "tracking.html" . }}
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 
 <body class="{{ if .IsPage }}single-page{{ else }}list-page{{ end }}{{ if .IsHome }} front{{ end }}">
