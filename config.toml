@@ -2,3 +2,6 @@ baseURL = "https://alejandro.land/"
 languageCode = "en-us"
 title = "alejandroland"
 theme = "zen"
+
+[permalinks]
+  posts = "/:title/"
