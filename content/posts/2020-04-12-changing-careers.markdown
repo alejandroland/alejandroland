@@ -1,5 +1,6 @@
 ---
 title: "Changing Careers"
+date:   2020-04-12 12:00:00 -0600
 categories: [job]
 ---
 

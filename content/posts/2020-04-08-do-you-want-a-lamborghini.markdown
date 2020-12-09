@@ -1,5 +1,6 @@
 ---
 title: "Do you want a Lamborghini?"
+date:   2020-04-08 12:00:00 -0600
 categories: [thoughts]
 ---
 

@@ -1,5 +1,6 @@
 ---
 title:  "Mis propósitos de año nuevo"
+date:   2019-02-12 12:00:00 -0600
 categories: [pensamientos]
 permalink: /propositos2019/
 featured-image: mis-propositos-ano-nuevo-2019.jpg

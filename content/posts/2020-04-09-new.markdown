@@ -1,5 +1,6 @@
 ---
 title: "New"
+date:   2020-04-09 12:00:00 -0600
 categories: [thoughts]
 ---
 

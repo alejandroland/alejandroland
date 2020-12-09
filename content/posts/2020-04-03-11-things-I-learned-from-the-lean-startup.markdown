@@ -1,5 +1,6 @@
 ---
 title: "11 Things I learned from \"The Lean Startup\""
+date:   2020-04-03 12:00:00 -0600
 categories: [books]
 ---
 
